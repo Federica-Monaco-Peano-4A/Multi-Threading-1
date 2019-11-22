@@ -3,3 +3,5 @@ Il processore permette l'esecuzione simultanea di più processi, questo comporta
 
 Es: Hi Hello Hi Hi Hi Hello Hi Hello Hello .........
 
+Nella seconda versione abbiamo aggiunto la classe di tipo Say(estesa in Thread) che riceveva come attributo una stringa che sarebbe stata l'output. Abbiamo in seguito creato anche in essa il metodo "run" e nel main l'abbiamo eseguita con il metodo "start".
+
