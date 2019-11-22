@@ -16,10 +16,14 @@ public class TPSayHiHello {
      */
     public static void main(String[] args) {
 
-        //Hi
+        //Hi Hello
         Hi h1 = new Hi();
         Hello h2 = new Hello();
         h1.start();
         h2.start();
+        
+        //Say
+        Say s1 = new Say("Say")
+        s1.start();
     }
 }
